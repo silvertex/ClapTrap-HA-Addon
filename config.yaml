@@ -1,5 +1,5 @@
 name: "ClapTrap"
-version: "1.9.2"
+version: "1.9.3"
 slug: "claptrap"
 description: "Application de détection d'applaudissements en temps réel utilisant YAMNet, compatible avec les flux audio locaux et RTSP"
 url: "https://github.com/lfpoulain/ClapTrap"
@@ -17,4 +17,3 @@ host_network: true
 init: false
 webui: "http://[HOST]:[PORT:16045]"
 maintainer: "lfpoulain"
-apparmor: true
