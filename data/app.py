@@ -1058,7 +1058,7 @@ def handle_test():
 if __name__ == '__main__':
     try:
         # Désactiver le mode debug
-        socketio.run(app, host='127.0.0.1', port=16045, debug=False)
+        socketio.run(app, host='0.0.0.0', port=16045, debug=False, allow_unsafe_werkzeug=True)
     except KeyboardInterrupt:
         cleanup_vban_detector()
     except Exception as e:
