@@ -17,3 +17,4 @@ host_network: true
 init: false
 webui: "http://[HOST]:[PORT:16045]"
 maintainer: "lfpoulain"
+apparmor: true
