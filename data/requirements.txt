@@ -8,6 +8,6 @@ pyvban
 scipy==1.11.4
 flask
 flask_socketio
-ffmpeg
+ffmpeg-python
 psutil
 opencv-python
